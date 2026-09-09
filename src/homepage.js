@@ -1,5 +1,5 @@
 import blackChefCat from "./black-chef-cat.jpg";
-export function initalizePage(){
+function initializeHomepage(){
     const contentDiv = document.querySelector("#content");
     const restaurantTitle = document.createElement("h1");
     const restaurantHeadline = document.createElement("h2");
@@ -14,3 +14,5 @@ export function initalizePage(){
     contentDiv.appendChild(chefImage);
     contentDiv.appendChild(chefDescription);
 }
+
+export default initializeHomepage;
